@@ -15,13 +15,12 @@ body {
   width: 375px;
   background-color: rgb(235, 235, 235);
   height: 3500px;
-  margin-left: 490px;
 }
 
 .Header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(23, 39, 2);
 }
 
 .navigation-links {
@@ -66,7 +65,7 @@ body {
 
 .introduction .img {
   width: 100%;
-  margin-top: -49px;
+  margin-top: -50px;
   margin-bottom: -100px;
   border-radius: 0 0 0 50px;
   height: 300px;
@@ -86,4 +85,45 @@ span {
 
 .rotate-icons {
   background-color: rgb(0, 136, 199);
+}
+
+@media (min-width: 748px) {
+  .mobile-version {
+    width: 100%;
+  }
+
+  .introduction .img {
+    height: 600px;
+  }
+
+  .navigation-links {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+    gap: 20px;
+    color: rgb(161, 230, 0);
+    font-weight: 400;
+  }
+
+  .name {
+    margin-bottom: 45px;
+    font-size: 20px;
+  }
+
+  .Header {
+    margin-bottom: -40px;
+  }
+
+  .fa-sharp {
+    display: none;
+  }
+
+  .main-intro {
+    margin-top: -350px;
+    text-align: left;
+    font-size: 60px;
+    line-height: 60px;
+    margin-left: 90px;
+  }
 }
